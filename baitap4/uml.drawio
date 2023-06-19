@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2023-06-19T09:30:48.097Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Lmuee_h0XdOQiaMvKnal" version="21.5.0" type="device">
+  <diagram name="Trang-1" id="mOzGT4VS2z-z11HOxmlx">
+    <mxGraphModel dx="1833" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hn4e0KZ1Gx9AMf9IoD85-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="240" as="sourcePoint" />
+            <mxPoint x="-60" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MbCqov_m_0ZmMLxi0yT6-5" value="Circle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="440" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="MbCqov_m_0ZmMLxi0yT6-6" value="+ bankinh:&amp;nbsp;double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MbCqov_m_0ZmMLxi0yT6-5">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MbCqov_m_0ZmMLxi0yT6-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="MbCqov_m_0ZmMLxi0yT6-5">
+          <mxGeometry y="52" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MbCqov_m_0ZmMLxi0yT6-8" value="+&amp;nbsp;circle()&lt;br&gt;+&amp;nbsp;circle( double bankinh)&lt;font color=&quot;#cc7832&quot;&gt;&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; color: rgb(51, 51, 51);&quot;&gt;+ getBankinh () : double&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(51, 51, 51);&quot;&gt;+ setBankinh( bankinh double) : void&lt;br&gt;+ chuvi(bankinh) double&amp;nbsp;&lt;br&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(51, 51, 51);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MbCqov_m_0ZmMLxi0yT6-5">
+          <mxGeometry y="60" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MbCqov_m_0ZmMLxi0yT6-10" value="&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Shape&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="170" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="MbCqov_m_0ZmMLxi0yT6-11" value="+ color: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MbCqov_m_0ZmMLxi0yT6-10">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MbCqov_m_0ZmMLxi0yT6-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="MbCqov_m_0ZmMLxi0yT6-10">
+          <mxGeometry y="52" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MbCqov_m_0ZmMLxi0yT6-13" value="&lt;div style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51);&quot;&gt;# Shape()&lt;/div&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51); text-align: center;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;# Shape(String color)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51); text-align: center;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;+ getColor () : String&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51); text-align: center;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;+ setColor( color String) : void&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;i style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51); text-align: center;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;+getArea ()&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;+ getDisplay()&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MbCqov_m_0ZmMLxi0yT6-10">
+          <mxGeometry y="60" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MbCqov_m_0ZmMLxi0yT6-16" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.611;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.407;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-553.2500000000001" y="439.24000000000007" as="sourcePoint" />
+            <mxPoint x="-430.0000000000001" y="340.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MbCqov_m_0ZmMLxi0yT6-29" value="Rectangle&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="440" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MbCqov_m_0ZmMLxi0yT6-30" value="+ witch: int&lt;br&gt;+height: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MbCqov_m_0ZmMLxi0yT6-29">
+          <mxGeometry y="26" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="MbCqov_m_0ZmMLxi0yT6-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="MbCqov_m_0ZmMLxi0yT6-29">
+          <mxGeometry y="70" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MbCqov_m_0ZmMLxi0yT6-32" value="+ Rectangle()&lt;br&gt;+ Rectangle(int witch, int heicht)&lt;br&gt;+ getWitch() int&lt;br&gt;+ getHeight() int&lt;br&gt;+ setWitch(witch int ) void&lt;br&gt;+ setHeight(height int ) void&lt;br&gt;+ dientich(int witch, int height) int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MbCqov_m_0ZmMLxi0yT6-29">
+          <mxGeometry y="78" width="240" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="MbCqov_m_0ZmMLxi0yT6-34" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.567;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MbCqov_m_0ZmMLxi0yT6-29" target="MbCqov_m_0ZmMLxi0yT6-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-200" y="430" as="sourcePoint" />
+            <mxPoint x="-360" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
